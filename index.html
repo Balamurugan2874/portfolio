@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMBEDDED SYSTEMS Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ECE Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1> I'm Balamurugan J</h1>
+            <h1>ECE Student </h1>
+            <p>Turning innovative ideas into smart solutions for Hardware and Software Projects</p>
+            <div class="hero-actions">
+                <a href="resume.pdf" class="btn primary" style="font-size: 1.2rem;" download>Download Resume</a>
+                <div class="hero-social-links">
+                    <a href="https://www.linkedin.com/in/bala-murugan-7233b6298/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Balamurugan2874" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/18kNPh1MWK/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/your-photo.jpg" alt="Balamurugan J" />
+        </div>
+        <div class="hero-animation">
+            <div class="circuit-animation"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a pre-final year Electronics and Communication Engineering student skilled in VLSI, IoT, and embedded system design. With experience in signal processing and wireless communication, 
+                    I integrate hardware and software to create efficient solutions with some languages C/C++,Python,Assembly. Passionate about technology, I aim to contribute to advancements in electronics and communication systems.</p>
+            </div>
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <div class="tech-icons">
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-c"></i>
+                    <i class="fab fa-raspberry-pi"></i>
+                    <i class="fab fa-arduino"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="images/CNG-gas.jpg" alt="CNG GAS DETECTION" loading="lazy">
+                <h3>CNG GAS DETECTION</h3>
+                <p>To detect the CNG gas from vehicle.</p>
+                <div class="project-tech">
+                    <span>Arduino uno</span>
+                    <span>MQ-4 Sensor</span>
+                    <span>I2C 2X16 Display</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/FPGA.jpg" alt="FPGA PROJECT" loading="lazy">
+                <h3>FPGA PROJECT</h3>
+                <p>An FPGA-based defense system enables real-time, high-speed processing for secure, adaptive, and mission-critical military applications.</p>
+                <div class="project-tech">
+                    <span>Xilinx Zynq UltraScale+ MPSoC</span>
+                    <span>Analog Devices ADAR1000</span>
+                    <span>Microsemi VSC8574 Ethernet</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul>
+                    <li>C/C++</li>
+                    <li>Python</li>
+                    <li>Assembly</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Hardware</h3>
+                <ul>
+                    <li>ARM Processor</li>
+                    <li>Arduino</li>
+                    <li>Raspberry Pi</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Protocols</h3>
+                <ul>
+                    <li>I2C/SPI/UART</li>
+                    <li>Debug Tools</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ECE Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
